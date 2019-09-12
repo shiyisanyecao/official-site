@@ -53,8 +53,11 @@
                     width: 18px;
                 }
                 span {
-                    color: #fff;
-                    font-size: 14px;
+                    a {
+                        color: #fff;
+                        font-size: 14px;
+                        text-decoration: none;
+                    }
                 }
             }
             .indexNav:hover {
@@ -72,7 +75,11 @@
                     width: 18px;
                 }
                 span {
-                    color: @fontColor;
+                    a {
+                        color: @fontColor;
+                        font-size: 14px;
+                        text-decoration: none;
+                    }
                 }
             }
             .pageNav {
@@ -89,8 +96,11 @@
                     width: 18px;
                 }
                 span {
-                    color: #fff;
-                    font-size: 14px;
+                    a {
+                        color: #fff;
+                        font-size: 14px;
+                        text-decoration: none;
+                    }
                 }
             }
             .pageNav:hover {
@@ -108,7 +118,11 @@
                     width: 18px;
                 }
                 span {
-                    color: @fontColor;
+                    a {
+                        color: @fontColor;
+                        font-size: 14px;
+                        text-decoration: none;
+                    }
                 }
             }
             .answerNav {
@@ -125,8 +139,11 @@
                     width: 18px;
                 }
                 span {
-                    color: #fff;
-                    font-size: 14px;
+                    a {
+                        color: #fff;
+                        font-size: 14px;
+                        text-decoration: none;
+                    }
                 }
             }
             .answerNav:hover {
@@ -144,7 +161,11 @@
                     width: 18px;
                 }
                 span {
-                    color: @fontColor;
+                    a {
+                        color: @fontColor;
+                        font-size: 14px;
+                        text-decoration: none;
+                    }
                 }
             }
         }
@@ -162,6 +183,16 @@
             align-items: center;
             .el-dropdown-link {
                 color: #fff;
+            }
+            .el-dropdown-menu {
+                 a {
+                    text-decoration: none;
+                    .el-dropdown-menu__item {
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: 14px;
+                    }
+                }
             }
         }
         .user-center {
