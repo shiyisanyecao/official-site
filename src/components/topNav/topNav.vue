@@ -40,7 +40,16 @@
                 </el-dropdown>
             </div>
             <div class="user-center">
-                <i class="user-icon"></i>
+                <el-dropdown trigger="click">
+                    <span class="el-dropdown-link">
+                        <i class="user-icon"></i>
+                    </span>
+                    <el-dropdown-menu slot="dropdown">
+                        <el-dropdown-item>个人主页</el-dropdown-item>
+                        <el-dropdown-item>系统设置</el-dropdown-item>
+                        <el-dropdown-item>退出系统</el-dropdown-item>
+                    </el-dropdown-menu>
+                </el-dropdown>
             </div>
         </div>
     </div>
