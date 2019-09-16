@@ -1,10 +1,19 @@
 <template>
-    <div class="container">
-        <div class="title" slot="header">AIM</div>
-        <div class="content" v-html="content"></div>
+    <div>
+        Home
     </div>
 </template>
 
-<script></script>
+<script>
+export default {
+    data() {
+        return {
 
-<style></style>
+        }
+    }
+}
+</script>
+
+<style scoped lang="less">
+@import './home.less';
+</style>

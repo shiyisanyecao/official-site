@@ -9,7 +9,7 @@
             <div class="navigation">
                 <div class="indexNav">
                     <i class="index"></i>
-                    <span><router-link to="">首页</router-link></span>
+                    <span><router-link :to="{path:'home'}">首页</router-link></span>
                 </div>
                 <div class="pageNav">
                     <i class="page"></i>
@@ -32,10 +32,10 @@
                     <span class="el-dropdown-link">创建
                         <i class="el-icon-arrow-down el-icon--right"></i>
                     </span>
-                    <el-dropdown-menu slot="dropdown">
-                        <router-link to=""><el-dropdown-item>写文章</el-dropdown-item></router-link>
+                    <el-dropdown-menu class="el-dropdown-menu" slot="dropdown">
+                        <el-dropdown-item @click.native="toArtical">写文章</el-dropdown-item>
                         <el-dropdown-item>提问题</el-dropdown-item>
-                        <router-link to=""><el-dropdown-item>记笔记</el-dropdown-item></router-link>
+                        <el-dropdown-item>记笔记</el-dropdown-item>
                     </el-dropdown-menu>
                 </el-dropdown>
             </div>
