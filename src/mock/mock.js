@@ -10,51 +10,75 @@ export default {
                     commonList: [
                         {
                             id: 1,
-                            image: '@/assets/image/qianduan.png',
+                            selected: false,
+                            image: '/static/image/qianduan.png',
+                            imageHover: '/static/image/qianduanHover.png',
                             name: '前端'
                         },{
                             id: 2,
-                            image: '@/assets/image/qianduan.png',
+                            selected: false,
+                            image: '/static/image/qianduan.png',
+                            imageHover: '/static/image/qianduanHover.png',
                             name: '后端'
                         },{
                             id: 3,
-                            image: '@/assets/image/xiaochengxu.png',
+                            selected: false,
+                            image: '/static/image/xiaochengxu.png',
+                            imageHover: '/static/image/xiaochengxuHover.png',
                             name: '小程序'
                         },{
                             id: 4,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/xiaochengxu.png',
+                            imageHover: '/static/image/xiaochengxuHover.png',
                             name: '人工智能'
                         },{
                             id: 5,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/qukuailian.png',
+                            imageHover: '/static/image/qukuailianHover.png',
                             name: '区块链'
                         },{
                             id: 6,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/anquan.png',
+                            imageHover: '/static/image/anquanHover.png',
                             name: '安全'
                         },{
                             id: 7,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/android.png',
+                            imageHover: '/static/image/androidHover.png',
                             name: 'Android'
                         },{
                             id: 8,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/IOS.png',
+                            imageHover: '/static/image/iosHover.png',
                             name: 'IOS'
                         },{
                             id: 9,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/tool.png',
+                            imageHover: '/static/image/toolHover.png',
                             name: '工具'
                         },{
                             id: 10,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/ren.png',
+                            imageHover: '/static/image/renHover.png',
                             name: '程序员'
                         },{
                             id: 11,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/hangye.png',
+                            imageHover: '/static/image/hangyeHover.png',
                             name: '行业'
                         },{
                             id: 12,
-                            image: '',
+                            selected: false,
+                            image: '/static/image/shequ.png',
+                            imageHover: '/static/image/shequHover.png',
                             name: '官方社区'
                         }
                     ]
